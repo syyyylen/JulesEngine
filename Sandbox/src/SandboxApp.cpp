@@ -11,7 +11,5 @@ public :
 
 JulesEngine::Application* JulesEngine::CreateApplication()
 {
-    std::cout << "Creating Application" << std::endl;
-    
     return new Sandbox();
 }

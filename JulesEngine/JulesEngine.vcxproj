@@ -65,6 +65,7 @@
       <PreprocessorDefinitions>JE_PLATFORM_WINDOWS;JE_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\JulesEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +83,7 @@
       <PreprocessorDefinitions>JE_PLATFORM_WINDOWS;JE_BUILD_DLL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\JulesEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -95,9 +97,11 @@
     <ClInclude Include="src\JulesEngine\Application.h" />
     <ClInclude Include="src\JulesEngine\Core.h" />
     <ClInclude Include="src\JulesEngine\EntryPoint.h" />
+    <ClInclude Include="src\JulesEngine\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\JulesEngine\Application.cpp" />
+    <ClCompile Include="src\JulesEngine\Log.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
