@@ -150,6 +150,7 @@
     <ClInclude Include="src\JulesEngine\Application.h" />
     <ClInclude Include="src\JulesEngine\Core.h" />
     <ClInclude Include="src\JulesEngine\EntryPoint.h" />
+    <ClInclude Include="src\JulesEngine\Events\ApplicationEvent.h" />
     <ClInclude Include="src\JulesEngine\Events\Event.h" />
     <ClInclude Include="src\JulesEngine\Log.h" />
   </ItemGroup>
