@@ -4,6 +4,9 @@
     <Filter Include="JulesEngine">
       <UniqueIdentifier>{BE37E1E8-2AED-59DE-B3E1-53B51F9650E2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="JulesEngine\Events">
+      <UniqueIdentifier>{E201CF4A-CEE5-8FA0-3746-8AF323497A22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\JulesEngine.h" />
@@ -15,6 +18,9 @@
     </ClInclude>
     <ClInclude Include="src\JulesEngine\EntryPoint.h">
       <Filter>JulesEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JulesEngine\Events\Event.h">
+      <Filter>JulesEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\JulesEngine\Log.h">
       <Filter>JulesEngine</Filter>
