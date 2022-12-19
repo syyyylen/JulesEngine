@@ -80,20 +80,3 @@ namespace JulesEngine
         return os << e.ToString();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
