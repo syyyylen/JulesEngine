@@ -1,7 +1,6 @@
 ﻿#include <JulesEngine.h>
 #include <iostream>
 
-
 class Sandbox : public JulesEngine::Application
 {
 public :

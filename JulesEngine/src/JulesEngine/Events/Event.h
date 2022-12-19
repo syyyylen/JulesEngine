@@ -5,8 +5,6 @@
 #include <string>
 #include <functional>
 
-#include "../EntryPoint.h"
-
 namespace JulesEngine
 {
     enum class EventType
@@ -75,8 +73,10 @@ namespace JulesEngine
         Event& m_Event;
     };
 
+    
     inline std::ostream& operator<<(std::ostream& os, const Event& e)
     {
         return os << e.ToString();
     }
+    
 }
