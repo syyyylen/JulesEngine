@@ -19,6 +19,9 @@ project "JulesEngine"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "jepch.h"
+    pchsource "JulesEngine/src/jepch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",

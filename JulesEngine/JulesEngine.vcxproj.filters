@@ -19,12 +19,22 @@
     <ClInclude Include="src\JulesEngine\EntryPoint.h">
       <Filter>JulesEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\JulesEngine\Events\ApplicationEvent.h">
+      <Filter>JulesEngine\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\JulesEngine\Events\Event.h">
+      <Filter>JulesEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JulesEngine\Events\KeyEvent.h">
+      <Filter>JulesEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JulesEngine\Events\MouseEvent.h">
       <Filter>JulesEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\JulesEngine\Log.h">
       <Filter>JulesEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\jepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\JulesEngine\Application.cpp">
@@ -33,5 +43,6 @@
     <ClCompile Include="src\JulesEngine\Log.cpp">
       <Filter>JulesEngine</Filter>
     </ClCompile>
+    <ClCompile Include="src\jepch.cpp" />
   </ItemGroup>
 </Project>

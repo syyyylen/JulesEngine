@@ -1,9 +1,7 @@
 ﻿#pragma once
 
+#include "jepch.h"
 #include "JulesEngine/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace JulesEngine
 {

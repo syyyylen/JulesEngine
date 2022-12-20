@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include "jepch.h"
 
 #include "Application.h"
 
@@ -21,10 +20,16 @@ namespace JulesEngine
     void Application::Run()
     {
         WindowResizeEvent e(1280, 720);
-        JE_WARN(e);
+        if(e.IsInCategory(EventCategoryApplication))
+        {
+            JE_WARN(e);
+        }
 
         MouseMovedEvent me(83.4f, 14.4f);
-        JE_WARN(me);
+        if(me.GetEventType() == EventType::MouseMoved)
+        {
+            JE_WARN(me);
+        }
         
         while (true);
     }

@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace JulesEngine
 {
     class JULESENGINE_API KeyEvent : public Event
