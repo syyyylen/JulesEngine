@@ -7,6 +7,12 @@
     <Filter Include="JulesEngine\Events">
       <UniqueIdentifier>{E201CF4A-CEE5-8FA0-3746-8AF323497A22}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{DDACA145-4917-56BC-9255-0762FEFE3311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Windows">
+      <UniqueIdentifier>{17E40808-83FA-069E-CC71-92BF38C7D725}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\JulesEngine.h" />
@@ -34,6 +40,12 @@
     <ClInclude Include="src\JulesEngine\Log.h">
       <Filter>JulesEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\JulesEngine\Window.h">
+      <Filter>JulesEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platforms\Windows\WindowsWindow.h">
+      <Filter>Platforms\Windows</Filter>
+    </ClInclude>
     <ClInclude Include="src\jepch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +54,9 @@
     </ClCompile>
     <ClCompile Include="src\JulesEngine\Log.cpp">
       <Filter>JulesEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platforms\Windows\WindowsWindow.cpp">
+      <Filter>Platforms\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\jepch.cpp" />
   </ItemGroup>
