@@ -83,7 +83,7 @@
       <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <AdditionalOptions>/MDd %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <ExternalWarningLevel>Level3</ExternalWarningLevel>
@@ -163,6 +163,8 @@
     <ClInclude Include="src\JulesEngine\Events\Event.h" />
     <ClInclude Include="src\JulesEngine\Events\KeyEvent.h" />
     <ClInclude Include="src\JulesEngine\Events\MouseEvent.h" />
+    <ClInclude Include="src\JulesEngine\Layer.h" />
+    <ClInclude Include="src\JulesEngine\LayerStack.h" />
     <ClInclude Include="src\JulesEngine\Log.h" />
     <ClInclude Include="src\JulesEngine\Window.h" />
     <ClInclude Include="src\Platforms\Windows\WindowsWindow.h" />
@@ -170,6 +172,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\JulesEngine\Application.cpp" />
+    <ClCompile Include="src\JulesEngine\Layer.cpp" />
+    <ClCompile Include="src\JulesEngine\LayerStack.cpp" />
     <ClCompile Include="src\JulesEngine\Log.cpp" />
     <ClCompile Include="src\Platforms\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\jepch.cpp">
