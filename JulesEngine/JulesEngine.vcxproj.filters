@@ -37,6 +37,12 @@
     <ClInclude Include="src\JulesEngine\Events\MouseEvent.h">
       <Filter>JulesEngine\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\JulesEngine\Layer.h">
+      <Filter>JulesEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JulesEngine\LayerStack.h">
+      <Filter>JulesEngine</Filter>
+    </ClInclude>
     <ClInclude Include="src\JulesEngine\Log.h">
       <Filter>JulesEngine</Filter>
     </ClInclude>
@@ -50,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\JulesEngine\Application.cpp">
+      <Filter>JulesEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JulesEngine\Layer.cpp">
+      <Filter>JulesEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JulesEngine\LayerStack.cpp">
       <Filter>JulesEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\JulesEngine\Log.cpp">
