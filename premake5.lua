@@ -58,7 +58,8 @@ project "JulesEngine"
     defines
     {
         "JE_PLATFORM_WINDOWS",
-        "JE_BUILD_DLL"
+        "JE_BUILD_DLL",
+        "GLFW_INCLUDE_NONE"
     }
     
     postbuildcommands

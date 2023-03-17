@@ -2,9 +2,8 @@
 
 #include "Application.h"
 
-#include <GL/gl.h>
+#include <glad/glad.h>
 
-#include "Events/MouseEvent.h"
 #include "JulesEngine/Log.h"
 
 namespace JulesEngine
