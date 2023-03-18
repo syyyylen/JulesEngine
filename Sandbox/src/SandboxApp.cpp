@@ -10,7 +10,8 @@ public:
 
     void OnUpdate() override
     {
-        //JE_INFO("Example Layer : Update");
+        if(JulesEngine::Input::IsKeyPressed(JE_KEY_TAB))
+            JE_INFO("Tab key pressed");
     }
 
     void OnEvent(JulesEngine::Event& event) override

@@ -165,9 +165,11 @@
     <ClInclude Include="src\JulesEngine\Events\MouseEvent.h" />
     <ClInclude Include="src\JulesEngine\ImGui\ImGuiLayer.h" />
     <ClInclude Include="src\JulesEngine\Input.h" />
+    <ClInclude Include="src\JulesEngine\KeyCodes.h" />
     <ClInclude Include="src\JulesEngine\Layer.h" />
     <ClInclude Include="src\JulesEngine\LayerStack.h" />
     <ClInclude Include="src\JulesEngine\Log.h" />
+    <ClInclude Include="src\JulesEngine\MouseButtonCodes.h" />
     <ClInclude Include="src\JulesEngine\Window.h" />
     <ClInclude Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.h" />
     <ClInclude Include="src\Platforms\Windows\WindowsInput.h" />

@@ -17,6 +17,7 @@ namespace JulesEngine
     Application::Application()
     {
         JE_CORE_ASSERT(!s_Instance, "Application already exists!");
+        JE_INFO("Application::Application()");
         s_Instance = this;
         
         m_Window = std::unique_ptr<Window>(Window::Create());
@@ -63,9 +64,6 @@ namespace JulesEngine
             for(Layer* layer : m_LayerStack)
                 layer->OnUpdate();
 
-            auto[x, y] = Input::GetMousePosition();
-            JE_CORE_TRACE("{0}, {1}", x, y);
-            
             m_Window->OnUpdate();
         }
     }

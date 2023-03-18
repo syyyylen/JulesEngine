@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Work\JulesEngine\Git\bin\Debug-windows-x86_64\JulesEngine\JulesEngine.dll</FullPath>
+      <FullPath>D:\Work\JulesEngine\JulesEngine\bin\Debug-windows-x86_64\JulesEngine\JulesEngine.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Work\JulesEngine\Git\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe</FullPath>
+      <FullPath>D:\Work\JulesEngine\JulesEngine\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
