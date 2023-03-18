@@ -164,11 +164,13 @@
     <ClInclude Include="src\JulesEngine\Events\KeyEvent.h" />
     <ClInclude Include="src\JulesEngine\Events\MouseEvent.h" />
     <ClInclude Include="src\JulesEngine\ImGui\ImGuiLayer.h" />
+    <ClInclude Include="src\JulesEngine\Input.h" />
     <ClInclude Include="src\JulesEngine\Layer.h" />
     <ClInclude Include="src\JulesEngine\LayerStack.h" />
     <ClInclude Include="src\JulesEngine\Log.h" />
     <ClInclude Include="src\JulesEngine\Window.h" />
     <ClInclude Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.h" />
+    <ClInclude Include="src\Platforms\Windows\WindowsInput.h" />
     <ClInclude Include="src\Platforms\Windows\WindowsWindow.h" />
     <ClInclude Include="src\jepch.h" />
   </ItemGroup>
@@ -179,6 +181,7 @@
     <ClCompile Include="src\JulesEngine\LayerStack.cpp" />
     <ClCompile Include="src\JulesEngine\Log.cpp" />
     <ClCompile Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.cpp" />
+    <ClCompile Include="src\Platforms\Windows\WindowsInput.cpp" />
     <ClCompile Include="src\Platforms\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\jepch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
