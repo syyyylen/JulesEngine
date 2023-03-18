@@ -7,8 +7,14 @@
     <Filter Include="JulesEngine\Events">
       <UniqueIdentifier>{E201CF4A-CEE5-8FA0-3746-8AF323497A22}</UniqueIdentifier>
     </Filter>
+    <Filter Include="JulesEngine\ImGui">
+      <UniqueIdentifier>{680370A5-D419-6E3B-1D91-F95C89E63EC3}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Platforms">
       <UniqueIdentifier>{DDACA145-4917-56BC-9255-0762FEFE3311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\OpenGL">
+      <UniqueIdentifier>{719BB998-5D94-D8EA-86C6-BD6F721EB8F6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Platforms\Windows">
       <UniqueIdentifier>{17E40808-83FA-069E-CC71-92BF38C7D725}</UniqueIdentifier>
@@ -37,6 +43,9 @@
     <ClInclude Include="src\JulesEngine\Events\MouseEvent.h">
       <Filter>JulesEngine\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\JulesEngine\ImGui\ImGuiLayer.h">
+      <Filter>JulesEngine\ImGui</Filter>
+    </ClInclude>
     <ClInclude Include="src\JulesEngine\Layer.h">
       <Filter>JulesEngine</Filter>
     </ClInclude>
@@ -49,6 +58,9 @@
     <ClInclude Include="src\JulesEngine\Window.h">
       <Filter>JulesEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.h">
+      <Filter>Platforms\OpenGL</Filter>
+    </ClInclude>
     <ClInclude Include="src\Platforms\Windows\WindowsWindow.h">
       <Filter>Platforms\Windows</Filter>
     </ClInclude>
@@ -58,6 +70,9 @@
     <ClCompile Include="src\JulesEngine\Application.cpp">
       <Filter>JulesEngine</Filter>
     </ClCompile>
+    <ClCompile Include="src\JulesEngine\ImGui\ImGuiLayer.cpp">
+      <Filter>JulesEngine\ImGui</Filter>
+    </ClCompile>
     <ClCompile Include="src\JulesEngine\Layer.cpp">
       <Filter>JulesEngine</Filter>
     </ClCompile>
@@ -66,6 +81,9 @@
     </ClCompile>
     <ClCompile Include="src\JulesEngine\Log.cpp">
       <Filter>JulesEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.cpp">
+      <Filter>Platforms\OpenGL</Filter>
     </ClCompile>
     <ClCompile Include="src\Platforms\Windows\WindowsWindow.cpp">
       <Filter>Platforms\Windows</Filter>

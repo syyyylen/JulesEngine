@@ -5,6 +5,7 @@
 #include "JulesEngine/Application.h"
 #include "JulesEngine/Log.h"
 #include "JulesEngine/Layer.h"
+#include "JulesEngine/ImGui/ImGuiLayer.h"
 
 // ---Entry Point------------------------
 
